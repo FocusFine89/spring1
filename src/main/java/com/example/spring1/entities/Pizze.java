@@ -27,6 +27,7 @@ public class Pizze {
     }
 
 
+
     //Metodi
 
 
@@ -62,13 +63,11 @@ public class Pizze {
         this.toppings = toppings;
     }
 
+
     @Override
     public String toString() {
-        return "Pizza{" +
-                "nomePizza='" + nomePizza + '\'' +
-                ", prezzo=" + prezzo +
-                ", valoriNutrizionali='" + valoriNutrizionali + '\'' +
-                ", toppings=" + toppings +
-                '}';
+        return
+                nomePizza + " (" +toppings+ ") " + " " +
+                valoriNutrizionali + " " + prezzo + " euro \n";
     }
 }

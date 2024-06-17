@@ -20,7 +20,7 @@ public class Spring1Application {
 
 		Menu menu = ctx.getBean(Menu.class);
 		System.out.println(menu);
-		
+
 	}
 
 

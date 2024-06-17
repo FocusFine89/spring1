@@ -54,11 +54,7 @@ public class Bevande {
 
     @Override
     public String toString() {
-        return "Bevande{" +
-                "nomeBevanda='" + nomeBevanda + '\'' +
-                ", quantita='" + quantita + '\'' +
-                ", prezzo=" + prezzo +
-                ", valoriNutrizionali='" + valoriNutrizionali + '\'' +
-                '}';
+        return nomeBevanda + " (" + quantita + ") " +
+                valoriNutrizionali + " " + prezzo + "euro \n";
     }
 }

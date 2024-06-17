@@ -45,10 +45,7 @@ public class Toppings {
 
     @Override
     public String toString() {
-        return "Toppings{" +
-                "nomeTopping='" + nomeTopping + '\'' +
-                ", prezzo=" + prezzo +
-                ", valoriNutrizionali='" + valoriNutrizionali + '\'' +
-                '}';
+        return nomeTopping + " " +
+                valoriNutrizionali + " " + prezzo + " euro \n";
     }
 }
